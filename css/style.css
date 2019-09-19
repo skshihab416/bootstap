@@ -1,0 +1,506 @@
+*{
+
+	font-family: 'Lato', sans-serif;
+}
+
+
+header{
+	background: #F6F9f9;
+	width: 100%;
+	padding: 30px;
+	}
+
+
+
+.banner-section{
+	background: url(../img/02.png);
+	width: 100%;
+	float: left;
+	padding: 220px 0px 85px; 
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	.banner h1{
+		font-size: 120px;
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+	}
+.banner{
+width: 100%;
+float: left;
+
+}
+	.banner span{
+	border-bottom: 2px solid #15A4Fa;
+	display: block;
+	width: 600px;
+	margin: 0px auto;
+	}
+
+	.banner p{
+
+		color: #fff;
+		font-size: 20px;
+		margin: 30px 0px 0px;
+	}
+
+	.btn {
+		padding: 20px 30px;
+		margin: 60px 0px 170px;
+		background: transparent;
+		border: 2px solid #15A4Fa;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 18px;
+
+	}
+	.btn:hover{
+		background-color: #15A4Fa;
+
+	}
+
+
+
+
+
+.text-section{
+	background:#F6F9f9;
+	float: left;
+	width: 100%;
+	padding: 80px 0px 110px;
+	text-align: center;
+}	
+
+.text h2 {
+	font-size: 40px;
+	color: #2d3950;
+}
+.text p {
+	padding-top:  70px;
+	font-size: 20px;
+	color: #999999;
+
+}
+
+.icon-section {
+	background: #fff;
+	float: left;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+
+}
+
+
+.img-section {
+	background: #F6F9f9;
+	width: 100%;
+	float: left;
+		text-align: center;
+
+	padding: 80px 0px 110px;
+}
+
+.img h2 {
+	font-size: 41px;
+	color: #2d3950;
+
+
+}
+.img p {
+	font-size: 15px;
+	color: #999999;
+	padding: 20px 0px 75px;
+}
+.img{
+		display: block;
+	width: 100%;
+	float: left;
+}
+
+
+.icon-one {
+	
+
+padding: 60px 30px;
+
+
+
+}
+
+.icon-two {
+	
+padding: 60px 30px;
+}
+
+.icon-three {
+	padding:60px  30px;
+
+}
+
+
+.icon-one h2 {
+margin: 20px;
+	font-size: 20px;
+	color: #2d3950;
+
+}
+.icon-two h2 {
+margin: 20px;
+	font-size: 20px;
+	color: #2d3950;
+
+}
+.icon-three h2 {
+margin: 20px;
+	font-size: 20px;
+	color: #2d3950;
+
+}
+
+.icon-one p {
+	font-size: 15px;
+	color: #999999;
+
+}
+
+.icon-two p {
+	font-size: 15px;
+	color: #999999;
+
+}
+.icon-three p {
+	font-size: 15px;
+	color: #999999;
+
+}
+
+
+.four {
+	
+  margin-top: 15px;
+}
+
+.five {
+   
+     margin-top: 15px;
+}
+
+.six {
+  
+      margin-top: 15px;
+}
+
+
+
+
+
+.text-area{
+	width: 100%;
+	height: 500px;
+	background-color:#2a354a;
+float: left;
+
+}
+.writing h2{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top:  30px;
+
+}
+.writing p{
+	
+	color: #999999;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.contact-form{
+display: block;
+	margin: 0px auto;
+	
+
+}
+.form-control{
+	color: #fff;
+	width: 500px;
+	height: 40px;
+	float: left;
+	background-color:#2a354a;
+	margin: 10px 0px;
+
+}
+
+.form-text{
+	color: #fff;
+	margin-top: 20px;
+	width: 500px;
+	height: 150px;
+	border-radius: 10px;
+	background-color:#2a354a;
+
+
+}
+.btn-two{
+	padding: 10px 40px;
+	margin: 10px 380px 30px;
+	border-radius: 5px;
+	border: 2px solid #15A4Fa;
+	
+
+}
+.btn-two:hover{
+	background-color: #15a4fa;
+
+
+}
+footer{
+	width: 100%;
+	float: left;
+	background: #F6F9f9;
+}
+
+
+
+.next-one h2{
+	padding:30px  20px;
+
+	
+}
+.next-two{
+
+	float: right;
+	
+}
+
+.next-two ul{
+	list-style-type: none;
+	float: right;
+
+
+}
+
+.next-two ul li {
+	display: inline-block;
+	margin: 20px 20px;
+
+	font-size: 20px;
+	color: #fff;
+	background-color: #15a4fa;
+	padding: 10px;
+	
+}
+
+
+
+@media(min-width: 320px) and (max-width: 500px){
+
+	.banner h1{
+		font-size: 50px;
+		
+	}
+
+	.banner span{
+	
+	width: 200px;
+	
+	}
+	.banner p{
+
+		
+		font-size: 15px;
+		
+	}
+	.btn {
+		padding: 10px 30px;
+		
+		font-size: 5px;
+
+	}
+
+	
+
+
+.text h2 {
+	font-size: 20px;
+	
+}
+.text p {
+	
+	font-size: 15px;
+	
+
+}
+.img h2 {
+	font-size: 41px;
+	color: #2d3950;
+
+
+}
+.img p {
+	font-size: 15px;
+	color: #999999;
+	padding: 20px 0px 75px;
+}
+.img{
+		display: block;
+	width: 100%;
+	float: left;
+}
+
+
+
+
+.icon-one h2 {
+
+	font-size: 20px;
+	
+
+}
+.icon-two h2 {
+
+	font-size: 20px;
+	
+
+}
+.icon-three h2 {
+
+	font-size: 20px;
+	
+
+}
+
+.icon-one p {
+	font-size: 15px;
+
+
+}
+
+.icon-two p {
+	font-size: 15px;
+	
+
+}
+.icon-three p {
+	font-size: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+.writing h2{
+	font-size: 20px;
+	
+}
+
+
+.form-control{
+	color: #fff;
+	width: 300px;
+	height: 30px;
+	
+
+}
+
+.form-text{
+	
+	width: 300px;
+	height: 150px;
+
+}
+
+
+
+
+
+footer{
+	width: 80%;
+	
+	
+}
+
+
+.next-one h2{
+	
+	font-size: 20px;
+	
+}
+
+
+
+
+.next-two ul li {
+	
+	font-size: 15px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
